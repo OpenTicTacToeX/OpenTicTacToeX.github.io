@@ -4,22 +4,21 @@
 }
 
 body {
-    background: lightgrey;
+    background: #eaeaea;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     background-image: url(media/back1.png);
-    /*width: 100px;*/
-    margin: 0px;
     text-align: center;
     line-height: 100px;
     color: white;
 }
 
 nav {
-    background: black;
+    background-image: url(media/back1.png);
     height: 90px;
+    /*border-bottom: black solid 1px;*/
 }
 
 nav ul li {
@@ -32,11 +31,13 @@ nav ul li {
 }
 
 #content {
-    background: white;
+    background: #eaeaea;
     float:left;
     width: 100%;
     min-height: 480px;
     padding: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 .article {
     color: black;
@@ -44,18 +45,26 @@ nav ul li {
     margin-bottom: 15px;
     padding-bottom: 10px;
 }
-aside{
-    float:left;
-    width: calc(20% - 20px);
-    padding: 10px;
-    background: orange;
-    min-height: 480px;
-}
+
+
 
 footer {
-    background: black;
-    color:white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
     text-align: center;
-    height:50px;
-    line-height: 50px;
+}
+#footleft{
+    margin-left: 13px;
+    float:left;
+    width: calc(70% - 13px);
+}
+#footright{
+    margin-top: 13px;
+    float:left;
+    width: 30%;
 }
