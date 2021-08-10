@@ -59,12 +59,17 @@ footer {
     text-align: center;
 }
 #footleft{
+    margin-top: 5px;
     margin-left: 13px;
     float:left;
     width: calc(70% - 13px);
 }
 #footright{
-    margin-top: 13px;
+    margin-top: 9px;
     float:left;
     width: 30%;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
