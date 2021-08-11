@@ -17,14 +17,14 @@ header {
 
 nav {
     background-image: url(media/back1.png);
-    height: 90px;
+    height: 130px;
     /*border-bottom: black solid 1px;*/
 }
 
 nav ul li {
     float: left;
     list-style: none;
-    margin: 10px;
+    margin: 30px;
 }
 .clearfix {
     clear: both;
@@ -50,7 +50,7 @@ nav ul li {
 
 
 footer {
-    font-size: x-large;
+    font-size: xx-large;
     position: fixed;
     left: 0;
     right: 0;
@@ -83,4 +83,7 @@ a {
 }
 .foottoview {
     height: 70px;
+}
+.navimg {
+    height: 60px;
 }
