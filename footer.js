@@ -14,7 +14,7 @@ document.write(`
                     </table>
                 </div>
                 <div id="footright">
-                    <a href="https://github.com/Can202/OpenTicTacToeX" target="_blank">
+                    <a href="https://github.com/OpenTicTacToeX/OpenTicTacToeX" target="_blank">
                         <img height="30px"src="media/link/github.png" class="foottoview">
                     </a>
                     <a href="https://sourceforge.net/projects/opentictactoex/" target="_blank">
