@@ -15,13 +15,13 @@ document.write(`
                 </div>
                 <div id="footright">
                     <a href="https://github.com/OpenTicTacToeX/OpenTicTacToeX" target="_blank">
-                        <img height="30px"src="media/link/github.png" class="foottoview">
+                        <img alt="Github" height="30px"src="media/link/github.png" class="foottoview">
                     </a>
                     <a href="https://sourceforge.net/projects/opentictactoex/" target="_blank">
-                        <img height="30px"src="media/link/sourceforge.png" class="foottoview">
+                        <img alt="SourceForge" height="30px"src="media/link/sourceforge.png" class="foottoview">
                     </a>
                     <a href="https://can202.itch.io/opentictactoex/" target="_blank">
-                        <img height="30px"src="media/link/itch.png" class="foottoview">
+                        <img alt="Itch.io" height="30px"src="media/link/itch.png" class="foottoview">
                     </a>
                 </div>
             </footer>
