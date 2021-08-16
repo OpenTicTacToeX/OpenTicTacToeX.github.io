@@ -2,6 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+html::-webkit-scrollbar {
+    width: 7px;
+    background: rgb(156, 156, 156);
+}
+html::-webkit-scrollbar-thumb {
+    background: #5c5c5c;
+}
 
 body {
     background: #eaeaea;
