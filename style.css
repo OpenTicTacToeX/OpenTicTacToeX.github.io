@@ -1,12 +1,14 @@
 * {
     margin: 0px;
     padding: 0px;
+    scrollbar-width: thin;
+    scrollbar-color: #5c5c5c rgb(156, 156, 156);
 }
-html::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 7px;
     background: rgb(156, 156, 156);
 }
-html::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background: #5c5c5c;
 }
 
